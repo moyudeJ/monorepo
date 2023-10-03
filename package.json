@@ -1,0 +1,9 @@
+{
+  "name": "lion-monorepo-template",
+  "private": true,
+  "description": "a monorepo template",
+  "scripts": {
+
+  },
+  "devDependencies": {}
+}

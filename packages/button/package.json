@@ -1,0 +1,33 @@
+{
+  "name": "@lion/button",
+  "version": "0.0.0",
+  "description": "",
+  "main": "",
+  "module": "",
+  "types": "",
+  "exports": {
+    ".": {
+      "require": "",
+      "import": "",
+      "types": ""
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "peerDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["react", "ui", "component library"],
+  "author": "buildX",
+  "license": "MIT",
+  "homepage": "",
+  "repository": {
+    "type": "",
+    "url": ""
+  }
+}
