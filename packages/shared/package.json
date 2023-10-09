@@ -1,12 +1,28 @@
 {
-  "name": "shared",
+  "name": "@lionui/shared",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/lionui-shared.umd.js",
+  "module": "./dist/lionui-shared.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/lionui-shared.umd.js",
+      "module": "./dist/lionui-shared.mjs",
+      "types": "./dist/index.d.ts"
+    }
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "vite build"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@types/lodash": "^4.14.199",
+    "lodash": "^4.17.21"
+  },
+  "peerDependencies": {
+    "vue": ">=3.0.0"
+  }
 }

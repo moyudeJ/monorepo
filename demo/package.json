@@ -1,0 +1,11 @@
+{
+  "name": "@lionui/demo",
+  "private": true,
+  "scripts": {
+    "dev": "vite dev"
+  },
+  "dependencies": {
+    "@lionui/ui": "workspace:^"
+  },
+  "devDependencies": {}
+}

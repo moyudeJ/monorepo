@@ -1,17 +1,24 @@
 {
-  "name": "@lionui/button",
+  "name": "@lionui/ui",
   "version": "0.0.0",
+  "description": "",
+  "keywords": [
+    "vue",
+    "ui",
+    "component library"
+  ],
+  "license": "MIT",
   "scripts": {
     "build": "vite build",
     "test": "echo test"
   },
-  "main": "./dist/openxui-button.umd.js",
-  "module": "./dist/openxui-button.mjs",
+  "main": "./dist/lionui.umd.js",
+  "module": "./dist/lionui.mjs",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
-      "require": "./dist/openxui-button.umd.js",
-      "module": "./dist/openxui-button.mjs",
+      "require": "./dist/lionui.umd.js",
+      "module": "./dist/lionui.mjs",
       "types": "./dist/index.d.ts"
     }
   },
@@ -23,6 +30,8 @@
     "vue": ">=3.0.0"
   },
   "dependencies": {
+    "@lionui/button": "workspace:^",
+    "@lionui/input": "workspace:^",
     "@lionui/shared": "workspace:^"
   },
   "devDependencies": {}

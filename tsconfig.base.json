@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    // 项目根目录
+    "rootDir": ".",
+    // 项目基础目录
+    "baseUrl": ".",
+    // tsc 编译产物输出目录
+    "outDir": "dist",
+    "target": "ES2022",
+    "module": "ESNext",
+    // 模块解析策略
+    "moduleResolution": "Node",
+    // 是否生成辅助 debug 的 .map.js 文件
+    "sourceMap": false,
+    // 产物不消除注释
+    "removeComments": false,
+    // 严格模式类型检查
+    "strict": true,
+    // 不允许有未使用的变量
+    "noUnusedLocals": true,
+    // 允许引入 .json 文件
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    // 在使用 const enum 或隐式类型的时候受到TS警告
+    "isolatedModules": true,
+    // 检查类型时是否跳过类型声明文件，一般在上游依赖存在问题时，置为 true
+    "skipLibCheck": true,
+    // 引入 ES 的功能库
+    "lib": [],
+    // 默认引入的模块类型声明文件
+    "types": [],
+    "paths": {
+      "@lionui/*": ["packages/*/src"]
+    }
+  }
+}
